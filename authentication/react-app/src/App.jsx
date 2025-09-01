@@ -13,7 +13,7 @@ const App = () => {
 
   console.log(data);
   return (
-    <div className="flex flex-col items-center justify-center  bg-gray-100">
+    <div className="flex flex-col items-center justify-center bg-gray-100">
       <h1 className="text-[30px] text-center text-red-600 font-bold mb-6">Authentication </h1>
       {data ? (
         <Home userName={data.user.displayName}  setData={setData}/>
