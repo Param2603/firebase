@@ -3,7 +3,7 @@ import React, { useEffect, useState } from "react";
 import { db } from "./config/firebase";
 
 const App = () => {
-  const [inputText, setInputText] = useState("");              
+  const [inputText, setInputText] = useState("");                 
   const [todoData, setTodoData] = useState([]);   
   const [editId, setEditId] = useState("");
   const [boolean, setBoolean] = useState(false);
